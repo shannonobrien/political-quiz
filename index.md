@@ -8,4 +8,5 @@ Title
 subtitle
 -----
 
-Hello world.
+<input type=radio>funyun
+<input type=radio>funyun
