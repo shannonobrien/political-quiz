@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<h1>Political spectrum quiz</h1>
+<h1>{{site.title}}</h1>
+
+<p>Answer the questions below and click submit!</p>
 
 <div class="quiz-grid">
-  <span aria-hidden="true" class="quiz-question"></span>
-  <span aria-hidden="true" id="quiz-radio-strongly-support" class="quiz-radio">strongly support</span>
-  <span aria-hidden="true" id="quiz-radio-support" class="quiz-radio">support</span>
-  <span aria-hidden="true" id="quiz-radio-neutral" class="quiz-radio">neutral/don't know</span>
-  <span aria-hidden="true" id="quiz-radio-oppose" class="quiz-radio">oppose</span>
-  <span aria-hidden="true" id="quiz-radio-strongly-oppose" class="quiz-radio">strongly oppose</span>
+  <span aria-hidden="true" class="quiz-header quiz-question"></span>
+  <span aria-hidden="true" id="quiz-radio-strongly-support" class="quiz-header quiz-radio">strongly support</span>
+  <span aria-hidden="true" id="quiz-radio-support" class="quiz-header quiz-radio">support</span>
+  <span aria-hidden="true" id="quiz-radio-neutral" class="quiz-header quiz-radio">neutral / don't know</span>
+  <span aria-hidden="true" id="quiz-radio-oppose" class="quiz-header quiz-radio">oppose</span>
+  <span aria-hidden="true" id="quiz-radio-strongly-oppose" class="quiz-header quiz-radio">strongly oppose</span>
   {% for quiz in site.data.quiz %}
   <span class="quiz-question">{{ quiz.Question }}</span>
   <div class="quiz-radio">
@@ -35,8 +37,3 @@ layout: default
   </div>
   {% endfor %}
 </div>
-<input label>
-
-
-
-

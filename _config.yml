@@ -1,6 +1,5 @@
-title: Minimal theme
+title: Political spectrum quiz
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+description: A political quiz created by Shannon O'Brien
+show_downloads: false
 theme: jekyll-theme-minimal
