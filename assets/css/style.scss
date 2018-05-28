@@ -3,6 +3,10 @@
 
 @import "jekyll-theme-minimal";
 
+:root {
+  --cell-vertical-gap: 20px;
+}
+
 section {
   width: unset;
   float: unset;
@@ -11,8 +15,6 @@ section {
 .quiz-grid {
   display: grid;
   grid-template-columns: 50% repeat(5, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 10px;
 }
 
 .quiz-row {
@@ -21,26 +23,34 @@ section {
 
 .quiz-question {
   flex: 1;
+  margin: var(--cell-vertical-gap) 10px var(--cell-vertical-gap) 0;
 }
 
 .quiz-radio {
-  padding: 0 5px;
+  padding: var(--cell-vertical-gap) 0;
 }
 
 .quiz-radio {
-  justify-self: center;
+  width: 100%;
+  text-align: center;
+}
+
+.quiz-radio-option-strongly-support, .quiz-radio-option-strongly-oppose {
+  background: #fbbd8a;
+}
+
+.quiz-radio-option-support, .quiz-radio-option-oppose {
+  background: #f6dac1
 }
 
 .quiz-radio.quiz-header {
   text-overflow: ellipsis;
   overflow: hidden;
-  justify-self: unset;
 }
 
 @media (screen and max-width:767px) {
   .quiz-grid {
     grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 2px;
   }
 
   .quiz-question {
