@@ -2,3 +2,22 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.quiz-grid {
+  display: grid;
+  grid-template-columns: 50% repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+}
+
+.quiz-row {
+  display: flex;
+}
+
+.quiz-question {
+  flex: 1;
+}
+
+.quiz-radio {
+  padding: 0 5px;
+}

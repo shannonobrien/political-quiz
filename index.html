@@ -2,15 +2,41 @@
 layout: default
 ---
 
-Political Spectrum Quiz
-====
+<h1>Political spectrum quiz</h1>
 
------
-
+<div class="quiz-grid">
+  <span aria-hidden="true" class="quiz-question"></span>
+  <span aria-hidden="true" id="quiz-radio-strongly-support" class="quiz-radio">strongly support</span>
+  <span aria-hidden="true" id="quiz-radio-support" class="quiz-radio">support</span>
+  <span aria-hidden="true" id="quiz-radio-neutral" class="quiz-radio">neutral/don't know</span>
+  <span aria-hidden="true" id="quiz-radio-oppose" class="quiz-radio">oppose</span>
+  <span aria-hidden="true" id="quiz-radio-strongly-oppose" class="quiz-radio">strongly oppose</span>
+  {% for quiz in site.data.quiz %}
+  <span class="quiz-question">{{ quiz.Question }}</span>
+  <div class="quiz-radio">
+    <input type=radio name="question-{{forloop.index}}" value="strongly-support"
+           aria-labelledby="quiz-radio-strongly-support">
+  </div>
+  <div class="quiz-radio">
+    <input type=radio name="question-{{forloop.index}}" value="support"
+           aria-labelledby="quiz-radio-support">
+  </div>
+  <div class="quiz-radio">
+    <input type=radio name="question-{{forloop.index}}" value="neutral"
+           aria-labelledby="quiz-radio-neutral">
+  </div>
+  <div class="quiz-radio">
+    <input type=radio name="question-{{forloop.index}}" value="oppose"
+           aria-labelledby="quiz-radio-oppose">
+  </div>
+  <div class="quiz-radio">
+    <input type=radio name="question-{{forloop.index}}" value="strongly-oppose"
+           aria-labelledby="quiz-radio-strongly-oppose">
+  </div>
+  {% endfor %}
+</div>
 <input label>
 
-<input type=radio>strongly support
-<input type=radio>support
-<input type=radio>neutral/I don't know
-<input type=radio>oppose
-<input type=radio>strongly oppose
+
+
+
