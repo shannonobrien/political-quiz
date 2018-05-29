@@ -67,3 +67,8 @@ layout: default
   </div>
   {% endfor %}
 </div>
+<div class="align-right">
+  <button type="button" class="submit-button">Submit</button>
+</div>
+<script>window.__quiz = {{ site.data.quiz | jsonify }}</script>
+<script src="assets/js/index.js"></script>

@@ -12,6 +12,19 @@ section {
   float: unset;
 }
 
+button {
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.align-right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .quiz-grid {
   display: grid;
   grid-template-columns: 50% repeat(5, 1fr);
