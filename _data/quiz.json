@@ -2,427 +2,427 @@
   {
     "Question": "Protests are ineffective for changing policy",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Assembly"
   },
   {
     "Question": "Citizens should be allowed to protest anywhere they want on public land",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Assembly"
   },
   {
     "Question": "A country is best led by fewer political parties, in order to be more efficient",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Assembly"
   },
   {
     "Question": "Taxes on businesses should remain low in order to free up more money for expanding businesses, hiring more employees, and therefore, decreasing unemployment and lowering prices for consumers",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Business regulation"
   },
   {
     "Question": "Starting a business should be made easy in order to create a healthier economy for everyone",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Business regulation"
   },
   {
     "Question": "People who make large profits should be taxed more than small businesses with less profit, and the income redistributed to citizens who make less in wages",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Business regulation"
   },
   {
     "Question": "Licensing is ultimately another cost that hurts consumers because business owners have to raise their prices to afford the extra cost",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Business regulation"
   },
   {
     "Question": "Contracts should be enforced by law to protect private property owners, such as business and homeowners",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Business regulation"
   },
   {
     "Question": "Employers should be required by law to hire certain people of different races, religions, sexuality, or disability, in order to create diversity in the workplace",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Business regulation"
   },
   {
     "Question": "The government should encourage innovation in the economy by cutting regulations and offering tax breaks to business professionals",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Business regulation"
   },
   {
     "Question": "Loans should be given out more rather than less liberally in order to encourage employers to hire more people, reducing the level of unemployment in the country",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Credit market regulations"
   },
   {
     "Question": "A central bank should regulate the amount of credit and inflation for the stability of the economy",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Credit market regulations"
   },
   {
     "Question": "Charging interest on a loan should be illegal",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Credit market regulations"
   },
   {
     "Question": "Freedom of speech means that even neo-Nazis should be allowed to march and speak their minds in public",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Expression and information"
   },
   {
     "Question": "Access to media should be unregulated by government, even if the information from the media causes unrest among citizens",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Expression and information"
   },
   {
     "Question": "Tariffs are necessary to keep money in the nation's economy",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Freedom to trade"
   },
   {
     "Question": "It should be illegal to own a foreign investment because it reduces money flowing into the national economy",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Freedom to trade"
   },
   {
     "Question": "Free trade agreements, where taxes will be reduced or eliminated when trading with certain selected countries, increases competition, lowering prices for consumers overall",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Freedom to trade"
   },
   {
     "Question": "If you buy from your local community, it gives more money to the local community and therefore, raises quality of life there",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Freedom to trade"
   },
   {
     "Question": "Foreigners should have the freedom to visit as long as they can pass a criminal background check",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Freedom to trade"
   },
   {
     "Question": "Foreign powers should be punished for interfering with elections by refusing to trade with them",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Freedom to trade"
   },
   {
     "Question": "There should be a 3 month waiting period for finalizing a divorce, in order to encourage families to stay together",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Identity and relationships"
   },
   {
     "Question": "Same sex married couples should have the same legal rights as hetereosexual married couples",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Identity and relationships"
   },
   {
     "Question": "Patriotism is important in order to create solidarity among citizens in a nation",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Identity and relationships"
   },
   {
     "Question": "Working overtime should be made illegal in order to protect employees from overwork",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "Women who have a gap in their employment history due to child rearing should still be paid the same as a man for the same job position",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "It should be legally easy to hire people and difficult to fire them in order to protect workers",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "Banks should all be owned by the government, less fraud occurs than if banks are made private",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "All employees should be paid the same amount of money regardless of their race, religion, sexuality, gender, or disability",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "A minimum wage means business owners have to raise their prices, reducing the number of products and services a consumer can buy",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "Unions should be formed, even if it means businesses have to charge more for goods and services, due to instituting higher wages and extra overtime pay",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "Employers should pay based on the merit of the employees' work on an individual basis, even if it means more men than women are getting raises",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "Sex that is paid for, between consenting adults, should be made legal",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Labor market regulation"
   },
   {
     "Question": "It is not reasonable to expect police to not be corrupt due to having power over citizens by their right to be violent toward people who could be potential threats to the safety of themselves and others",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Legal system"
   },
   {
     "Question": "It should be a woman's right to decide if they want an abortion",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Legal system"
   },
   {
     "Question": "A human life is killed when an abortion takes place, and is therefore murder",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Legal system"
   },
   {
     "Question": "A person should be able to choose when they die, such as cases of suicide or euthanasia",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Legal system"
   },
   {
     "Question": "Loyalty to one's country is vital to a secure, strong national defense",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Legal system"
   },
   {
     "Question": "The government should intervene militarily in any country where genocide is occuring",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Legal system"
   },
   {
     "Question": "If necessary, terrorists' passports should be taken away",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Movement"
   },
   {
     "Question": "There should be more rather than less restrictions and regulations on the sale of property in order to protect homeowners from getting ripped off by sellers",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Property rights"
   },
   {
     "Question": "Private property should be abolished and replaced by government ownership",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Property rights"
   },
   {
     "Question": "A country or state should have one official religion, in order to grow cultural cohesion",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Religion"
   },
   {
     "Question": "If a business commits fraud, the people involved should pay a fine to those who were taken advantage of, but not go to jail because the crime was not violent",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Rule of law"
   },
   {
     "Question": "If congress is slow and inefficient, the president should be allowed to do what he wants, regardless of what congress says",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Rule of law"
   },
   {
     "Question": "Democracy is the best system of governance for protecting citizens from oppression",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Rule of law"
   },
   {
     "Question": "A system of laws that are enforced by the judicial branch is necessary to keep citizens safe and secure",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Rule of law"
   },
   {
     "Question": "Obeying the law and authority figures creates and safe and just society",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Rule of law"
   },
   {
     "Question": "A country's constitution should be upheld to the letter and historical context of the law, it is not open to interpretation",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Rule of law"
   },
   {
     "Question": "Violent force, including from police, should be punishable by law",
     "Axis": "Social",
-    "Points": "1",
+    "Points": 1,
     "Category": "Rule of law"
   },
   {
     "Question": "Government should make laws for the good of the people of a country, as a whole, even if it means sacrificing some liberties, such as the right to have more than one child when overpopulation is a national crisis",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Rule of law"
   },
   {
     "Question": "Torture in necessary to extract information from terrorists who wouldn't give away information otherwise",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "The worst criminals, those who have committed murder or molestation, should be executed",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "The government should regulate or ban certain drugs regardless of how harmful they are",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "Surveillance on all citizens is ok if it means it will prevent terrorist attacks",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "Some censorship is necessary in the press if it is in the interests of national security",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "Police and military intervention is necessary in cases where security is needed, such as when a natural disaster or riot occurs",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "An authoritarian government is necessary in cases where there is a lack of security",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "War is sometimes necessary, but only if a country is attacked first",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "Cooperation and compromise is necessary to securing peace, versus a strong leader who makes executive decisions",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "If a nation can prevent a terrorist attack, they should intervene militarily in other countries",
     "Axis": "Social",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Security and safety"
   },
   {
     "Question": "The income tax on the highest earners should pay at least 50% of their income in taxes",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Size of government"
   },
   {
     "Question": "In order to encourage alternative energy sources, the government should pay people to set up solar panels, even if it means higher taxes",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Size of government"
   },
   {
     "Question": "A small government is an efficient government",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Size of government"
   },
   {
     "Question": "A large national budget is necessary in order to provide a safety net for citizens most in need",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Size of government"
   },
   {
     "Question": "A tax should be put in place to pay for healthcare for every citizen",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Size of government"
   },
   {
     "Question": "If a tax is put in place to pay for healthcare for every citizen, people and companies will take advantage of the healthcare system by charging more money for medical goods and services, meaning taxes will need to be raised to pay for the inflated costs",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Size of government"
   },
   {
     "Question": "Pollution taxes and fines on business protect citizens from harm overall, even if it means sacrificing some of the economy's health",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Size of government"
   },
   {
     "Question": "The more money rich people have, the less money poor people have",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Sound money"
   },
   {
     "Question": "The government inflating the currency a little is necessary to reduce unemployment and increase capital/credit for business owners",
     "Axis": "Economic",
-    "Points": "-1",
+    "Points": -1,
     "Category": "Sound money"
   },
   {
     "Question": "Economic growth is important to an economy in order to raise the standard of living for its citizens",
     "Axis": "Economic",
-    "Points": "1",
+    "Points": 1,
     "Category": "Sound money"
   }
 ]
