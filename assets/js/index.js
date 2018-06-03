@@ -71,7 +71,57 @@
     let socialNormalizedScore = socialScore / socialTotal
     let economicNormalizedScore = economicScore / economicTotal
 
-    alert(`You scored ${socialNormalizedScore} on the social axis and ${economicNormalizedScore} on the economic axis`)
+    return [socialNormalizedScore, economicNormalizedScore]
+    //alert(`You scored ${socialNormalizedScore} on the social axis and ${economicNormalizedScore} on the economic axis`)
+  }
+
+  function drawResult () {
+
+    let defData = [
+      {
+        "count": 1,
+        "cycleTime": 1,
+        "effort": 1,
+        "priority": "low",
+        "team": "d"
+      },
+      {
+        "count": 5,
+        "cycleTime": 2,
+        "effort": 2,
+        "priority": "low",
+        "team": "d"
+      },
+      {
+        "count": 8,
+        "cycleTime": 3,
+        "effort": 3,
+        "priority": "medium",
+        "team": "l"
+      },
+      {
+        "count": 3,
+        "cycleTime": 4,
+        "effort": 4,
+        "priority": "high",
+        "team": "l"
+      }
+    ]
+
+    let chart = new Taucharts.Chart({
+      data   : defData,
+      type: 'scatterplot',
+      x: 'cycleTime',
+      y: 'effort',
+      color: 'team',
+      size: 'count',
+      plugins: [
+        Taucharts.api.plugins.get('legend'),
+        Taucharts.api.plugins.get('tooltip')
+      ]
+    })
+    chart.renderTo('#theChart')
+
   }
 
   $quizGrid.addEventListener('change', e => {
@@ -88,8 +138,10 @@
 
   $submitButton.addEventListener('click', e => {
     let result = calculateResult()
+    drawResult(result)
   })
 
   restoreFromStorage()
   checkQuizValid()
+  drawResult([0, 0])
 })()

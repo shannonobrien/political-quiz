@@ -70,5 +70,10 @@ layout: default
 <div class="align-right">
   <button type="button" class="submit-button">Submit</button>
 </div>
+
+<div id='theChart'></div>
+
 <script>window.__quiz = {{ site.data.quiz | jsonify }}</script>
+<script src="https://cdn.jsdelivr.net/d3js/latest/d3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js" type="text/javascript"></script>
 <script src="assets/js/index.js"></script>
