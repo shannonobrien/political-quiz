@@ -79,45 +79,73 @@
 
     let defData = [
       {
-        "count": 1,
-        "cycleTime": 1,
-        "effort": 1,
-        "priority": "low",
-        "team": "d"
+        economic: 0.5,
+        social: 0.5,
+        name: 'Libertarian',
+        color: 'a'
       },
       {
-        "count": 5,
-        "cycleTime": 2,
-        "effort": 2,
-        "priority": "low",
-        "team": "d"
+        economic: -0.5,
+        social: 0.5,
+        name: 'Social liberal',
+        color: 'a'
       },
       {
-        "count": 8,
-        "cycleTime": 3,
-        "effort": 3,
-        "priority": "medium",
-        "team": "l"
+        economic: 0.5,
+        social: -0.5,
+        name: 'Conservative',
+        color: 'a'
       },
       {
-        "count": 3,
-        "cycleTime": 4,
-        "effort": 4,
-        "priority": "high",
-        "team": "l"
+        economic: -0.5,
+        social: -0.5,
+        name: 'Communitarian',
+        color: 'a'
+      },
+      {
+        economic: 0,
+        social: 0,
+        name: 'Centrist',
+        color: 'a'
+      },
+      {
+        economic: 0.2,
+        social: -0.7,
+        name: 'You',
+        color: 'b'
       }
     ]
 
     let chart = new Taucharts.Chart({
       data   : defData,
       type: 'scatterplot',
-      x: 'cycleTime',
-      y: 'effort',
-      color: 'team',
-      size: 'count',
+      x: 'economic',
+      y: 'social',
+      label: 'name',
+      guide: {
+        x: {
+          min: -1,
+          max: 1,
+          nice: false,
+          padding: 20,
+          label: {
+            text: 'Economic freedom',
+            padding: 35
+          }
+        },
+        y: {
+          min: -1,
+          max: 1,
+          nice: false,
+          padding: 20,
+          label: {
+            text: 'Social freedom',
+            padding: 35
+          }
+        }
+      },
+      color: 'color',
       plugins: [
-        Taucharts.api.plugins.get('legend'),
-        Taucharts.api.plugins.get('tooltip')
       ]
     })
     chart.renderTo('#theChart')
