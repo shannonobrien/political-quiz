@@ -127,22 +127,23 @@
           min: -1,
           max: 1,
           nice: false,
-          padding: 20,
           label: {
-            text: 'Economic freedom',
-            padding: 35
+            text: 'Economic freedom'
           }
         },
         y: {
           min: -1,
           max: 1,
           nice: false,
-          padding: 20,
           label: {
-            text: 'Social freedom',
-            padding: 35
+            text: 'Social freedom'
           }
         }
+      },
+      settings: {
+        // fitModel: 'minimal',
+        //xDensityPadding: 30,
+        //yDensityPadding: 1
       },
       color: 'color',
       plugins: [
