@@ -141,9 +141,6 @@
         }
       },
       settings: {
-        // fitModel: 'minimal',
-        //xDensityPadding: 30,
-        //yDensityPadding: 1
       },
       color: 'color',
       plugins: [

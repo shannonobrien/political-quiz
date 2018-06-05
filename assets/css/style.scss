@@ -61,6 +61,20 @@ button {
   overflow: hidden;
 }
 
+#theChart {
+  width: 100%;
+  height: 400px;
+  margin: 10px 20px;
+}
+
+.i-role-label {
+  font-size: 16px !important;
+}
+
+.tau-chart__svg .label .label-token {
+  font-size: 16px !important;
+}
+
 @media (screen and max-width:767px) {
   .quiz-grid {
     grid-template-columns: repeat(5, 1fr);
