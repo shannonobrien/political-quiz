@@ -75,7 +75,7 @@
     //alert(`You scored ${socialNormalizedScore} on the social axis and ${economicNormalizedScore} on the economic axis`)
   }
 
-  function drawResult () {
+  function renderChart ([socialScore, economicScore]) {
 
     let defData = [
       {
@@ -109,8 +109,8 @@
         color: 'a'
       },
       {
-        economic: 0.2,
-        social: -0.7,
+        economic: economicScore,
+        social: socialScore,
         name: 'You',
         color: 'b'
       }
@@ -144,10 +144,18 @@
       },
       color: 'color',
       plugins: [
+        taucharts.api.plugins.get('tooltip')()
       ]
     })
-    chart.renderTo('#theChart')
 
+    $('#theChart').innerHTML = ''
+    chart.renderTo('#theChart')
+  }
+
+  function renderExplanation ([socialScore, economicScore]) {
+    $('#theExplanation').innerHTML =
+      `<p>You scored ${socialScore.toFixed(2)} on social freedom and ${economicScore.toFixed(2)} ` +
+      `on economic freedom, on a scale from -1.0 to +1.0.</p>`
   }
 
   $quizGrid.addEventListener('change', e => {
@@ -162,12 +170,12 @@
     checkQuizValid()
   })
 
-  $submitButton.addEventListener('click', e => {
+  $submitButton.addEventListener('click', () => {
     let result = calculateResult()
-    drawResult(result)
+    renderChart(result)
+    renderExplanation(result)
   })
 
   restoreFromStorage()
   checkQuizValid()
-  drawResult([0, 0])
 })()
