@@ -144,7 +144,7 @@
       },
       color: 'color',
       plugins: [
-        taucharts.api.plugins.get('tooltip')()
+        Taucharts.api.plugins.get('tooltip')()
       ]
     })
 
