@@ -103,6 +103,30 @@
         color: 'a'
       },
       {
+        name: 'Reactionary',
+        color: 'a',
+        social: -1,
+        economic: 1
+      },
+      {
+        name: 'Anarchist',
+        color: 'a',
+        social: 1,
+        economic: 1
+      },
+      {
+        name: 'Authoritarian',
+        color: 'a',
+        social: -1,
+        economic: -1
+      },
+      {
+        name: 'Communist',
+        color: 'a',
+        social: 1,
+        economic: -1
+      },
+      {
         economic: 0,
         social: 0,
         name: 'Centrist',
@@ -124,16 +148,16 @@
       label: 'name',
       guide: {
         x: {
-          min: -1,
-          max: 1,
+          min: -1.2,
+          max: 1.2,
           nice: false,
           label: {
             text: 'Economic freedom'
           }
         },
         y: {
-          min: -1,
-          max: 1,
+          min: -1.2,
+          max: 1.2,
           nice: false,
           label: {
             text: 'Social freedom'
@@ -154,7 +178,8 @@
 
   function renderExplanation ([socialScore, economicScore]) {
     $('#theExplanation').innerHTML =
-      `<p>You scored ${socialScore.toFixed(2)} on social freedom and ${economicScore.toFixed(2)} ` +
+      `<p>You scored <strong>${socialScore.toFixed(2)}</strong> ` +
+      `on social freedom and <strong>${economicScore.toFixed(2)}</strong> ` +
       `on economic freedom, on a scale from -1.0 to +1.0.</p>`
   }
 
